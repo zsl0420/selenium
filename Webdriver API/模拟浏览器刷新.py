@@ -9,4 +9,6 @@ driver.get("https://www.baidu.com")
 
 driver.refresh()
 
+sleep(5)
+
 driver.quit()

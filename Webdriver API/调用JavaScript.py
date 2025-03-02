@@ -19,7 +19,7 @@ driver.set_window_size(800, 600)
 driver.find_element_by_id("kw").send_keys("selenium")
 driver.find_element_by_id("su").click()
 # 加上等待时间 否则页面没有加载完全的话无法实现滚动
-sleep(2)
+sleep(5)
 # 通过JavaScript 来实现浏览器滚动条
 js = "window.scrollTo(100,document.body.scrollHeight);"
 driver.execute_script(js)

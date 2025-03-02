@@ -7,5 +7,5 @@ driver.get("https://mail.163.com")
 
 mail = Mail(driver)
 mail.login()
-sleep(5)
+sleep(10)
 driver.quit()

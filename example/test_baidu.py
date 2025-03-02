@@ -7,7 +7,7 @@ driver = webdriver.Firefox()
     用的是火狐浏览器
 """
 driver.get("https://www.baidu.com")
-sleep(5)
+sleep(2)
 
 # 定位元素
 driver.find_element_by_id("kw").send_keys("Selenium")
